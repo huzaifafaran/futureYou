@@ -1,0 +1,41 @@
+/* tokens.css - source of truth */
+:root {
+  --color-paper:      oklch(15% 0.02 260);
+  --color-paper-2:    oklch(20% 0.02 260);
+  --color-ink:        oklch(95% 0.01 260);
+  --color-ink-2:      oklch(85% 0.01 260);
+  --color-rule:       oklch(30% 0.02 260);
+  --color-accent:     oklch(65% 0.20 45);
+  --color-accent-ink: oklch(10% 0.02 260);
+  --color-focus:      oklch(70% 0.20 45);
+
+  --font-display: "Clash Display", "Space Grotesk", sans-serif;
+  --font-body:    "Inter", "Geist", sans-serif;
+  --font-mono:    "Geist Mono", monospace;
+
+  /* 4-pt spacing scale */
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  --text-2xs: 0.625rem;
+  --text-xs:  0.75rem;
+  --text-sm:  0.875rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur-base: 240ms;
+  --dur-slow: 320ms;
+  --dur-reduced: 150ms;
+
+  --radius-card: 24px;
+  --radius-pill: 999px;
+  --radius-input: 8px;
+}
